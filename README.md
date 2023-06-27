@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C  language
+0x05. C - Pointers, arrays and strings
