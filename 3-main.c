@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,9 +8,15 @@
  */
 int main(void)
 {
-    char *str;
+    int r;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
+    r = factorial(1);
+    printf("%d\n", r);
+    r = factorial(5);
+    printf("%d\n", r);
+    r = factorial(10);
+    printf("%d\n", r);
+    r = factorial(-1024);
+    printf("%d\n", r);
     return (0);
 }
